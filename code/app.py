@@ -21,12 +21,5 @@ def predict():
     return Response(gen(VideoCamera()),
                     mimetype='multipart/x-mixed-replace; boundary=frame')
     
-    
-#app.config["DEBUG"] = True
-#def main():
-#    """Run the app."""
-#    app.run(host='0.0.0.0', port=8000, debug=False)  # nosec
-#    
-#    
 if __name__ == '__main__':
     app.run(debug=False,threaded=False)

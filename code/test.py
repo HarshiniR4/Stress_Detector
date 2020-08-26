@@ -136,8 +136,3 @@ class VideoCamera(object):
     #    cap.release()
     #    return "plot"
 
-#def main():
-#    """Run the app."""
-#    app.run(host='0.0.0.0', port=8000, debug=False)  # nosec
-#    
-#    
