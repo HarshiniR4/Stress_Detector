@@ -1,4 +1,5 @@
 from flask import Flask, render_template, Response
+import test
 from test import VideoCamera
 app = Flask(__name__, template_folder='D:/Stress_Detector/code/templates')
 
