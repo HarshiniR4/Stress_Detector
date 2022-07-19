@@ -1,4 +1,4 @@
-# Stress_Detector 
+<h2 align="center"># Stress_Detector </h2>
 
 
 # Aim: 
@@ -26,3 +26,6 @@ Project to develop a live Stress Detection API using Deep Learning, CNN and Flas
  # Working:
   Clone and download the repository and run the app.py file and view the output in the local server page.
  
+
+## License
+[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
