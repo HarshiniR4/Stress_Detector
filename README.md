@@ -1,31 +1,41 @@
-<h2 align="center"># Stress_Detector </h2>
+<h1 align="center">🧠 MindTrack — AI-Based Stress Detection</h1>
 
+### 👩‍💻 Developed by:
+**Kumkum Kadhala**  
+*B.Tech Computer Science, IIITDM Jabalpur (Batch 2026)*  
 
-# Aim: 
-Project to develop a live Stress Detection API using Deep Learning, CNN and Flask 
+---
 
-# Dataset:
-  Keras FER2013 dataset
+## 🎯 **Aim**
+To develop a live **Stress Detection System** using Deep Learning, CNN, and Flask — capable of analyzing facial expressions in real time and predicting stress levels.
 
-# Libraries Required:
-  1. Keras
-  2. OpenCV
-  3. Dlib
-  4.imutils
-  5. Flask
-  
-# Resources:
-  68 Point Facial Landmark
-# Procedure:
-  1. Emotion Recongition- model training 
-  2. Getting Vieos frame-by-frame using OpenCV
-  3. Calculation stress levels using eyebrow and lip movements
-  4. Displayng calculated stress levels continously on the frame
-  5. Deploying the Ap using Flask in Python
- 
- # Working:
-  Clone and download the repository and run the app.py file and view the output in the local server page.
- 
+---
 
-## License
-[![License](http://img.shields.io/:license-mit-blue.svg?style=flat-square)](http://badges.mit-license.org)
+## 🧩 **Dataset**
+Keras **FER2013 Facial Emotion Dataset**
+
+---
+
+## ⚙️ **Libraries Required**
+1. Keras  
+2. OpenCV  
+3. Dlib  
+4. imutils  
+5. Flask  
+
+---
+
+## 📈 **Key Features**
+- Emotion recognition through CNN model training  
+- Real-time frame analysis using OpenCV  
+- Stress level estimation based on eyebrow and lip movement  
+- Continuous display of stress values on the live video feed  
+- Flask-based deployment for web access  
+
+---
+
+## 🚀 **How It Works**
+1. Clone and download this repository:
+   ```bash
+   git clone https://github.com/kumkum020704/MindTrack-Stress-Detection.git
+   cd MindTrack-Stress-Detection
